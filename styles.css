@@ -1,0 +1,32 @@
+/* styles.css */
+
+h1 {
+  color: white;
+  background: #0c466d;
+  font-family: 'Arial', sans-serif; /* Change 'Arial' to your preferred font */
+}
+
+p {
+  text-align: right;
+  color: darkgrey;
+  font-family: 'Arial', sans-serif; /* Change 'Times New Roman' to your preferred font */
+}
+
+body {
+  background-image: url('img/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Additional styling for the marquee */
+marquee {
+  font-size: 24px;
+}
+
+/* Styling for the navigation links */
+p a {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+

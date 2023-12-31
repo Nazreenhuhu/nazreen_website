@@ -1,0 +1,91 @@
+<html>
+
+
+
+<head>
+<title>Gallery</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+body {
+  background-image: url(./img/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            width: 600px; /* Customize the width of each gallery item */
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border: 3px solid #333;
+            max-height: 600px; /* Customize the maximum height of each image */
+        }
+
+        .gallery-item video {
+            width: 100%;
+            height: auto;
+            border: 3px solid #333;
+            max-height: 600px;
+        }
+</style>
+</head>
+
+
+
+<body>
+
+
+<h1><font color="white"><marquee direction="left" scrollamount="15" scrolldelay"15">Gallery</marquee></h1>
+
+<p align="right"    >
+
+<a href="index.html" target="_blank"><img src="./img/1.png" height="40" width="40"<br></a> 
+<a href="biodata.html" target="_blank" height="25" width="50"><img src="./img/2.png" height="40" width="40"<br></a> 
+<a href="education.html" target="_blank"><img src="./img/4.png" height="40" width="40"<br></a> 
+<a href="experience.html" target="_blank"><img src="./img/3.png" height="40" width="40"<br></a> 
+<a href="family.html" target="_blank"><img src="./img/family.png" height="40" width="40"<br></a>
+<a href="gallery.html" target="_blank"><img src="./img/gallery.png" height="40" width="40"<br></a>
+
+</p>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="./img/g1.jpg" alt="Image 1">
+           Some of my friends during diploma
+        </div>
+        <div class="gallery-item">
+            <img src="./img/g7.jpg" alt="Image 2">
+            Picture of sunset in UiTM Raub
+        </div>
+        <div class="gallery-item">
+            <img src="./img/g2.jpg" alt="Image 3">
+            Picture during Malam Keagamaan
+        </div>
+        <div class="gallery-item">
+            <img src="./img/g5.jpg" alt="Image 3">
+            #Trip2KualaTerengganu with my housemates
+        </div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="./vid/g4.MP4" type="video/mp4"> a video<!-- Replace 'sample.mp4' with your video file -->
+                Your browser does not support the video tag.
+            </video>
+                    <div class="gallery-item">
+            <video controls>
+                <source src="./vid/g3.MP4" type="video/mp4"> <!-- Replace 'sample.mp4' with your video file -->
+                Your browser does not support the video tag.
+            </video>
+    </div>
+    
+</body>
+</html>
